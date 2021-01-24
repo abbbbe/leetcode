@@ -25,11 +25,13 @@ public:
                 for (; i < nums.size(); i++) {
                     if (nums[i] == *iter_low) {
                         res.push_back(i);
+                        break;
                     }
                 }
                 for (i = 0; i < nums.size(); i++) {
                     if (nums[i] == *iter_high && i != res[0]) {
                         res.push_back(i);
+                        break;
                     }
                 }
 
