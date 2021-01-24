@@ -50,4 +50,4 @@ public:
 
 ## Better Solution
 
-Only one travelsal with hashtable.
+Two traversals with hashtable. Either put the num in or find the result. One more traversal to figure out the index. O(n).
