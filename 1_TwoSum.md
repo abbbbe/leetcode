@@ -47,3 +47,7 @@ public:
     }
 };
 ```
+
+## Better Solution
+
+Only one travelsal with hashtable.
